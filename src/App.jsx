@@ -17,7 +17,7 @@ function App() {
         <Route path="/endurance" element={<GameEndurance />} />
         <Route path="/marubatu" element={<GameMarubatu />} />
         <Route path="/search" element={<GameSearch />} />
-        <Route path="*" element={<NotFound />} />
+
       </Routes>
     </BrowserRouter>
   );
