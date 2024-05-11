@@ -10,7 +10,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
+    
     <BrowserRouter>
+      <GameSearch />
       <Routes>
         <Route exact path="/" element={<GameSearch />}/>
         <Route path="/test" element={<GameTest />} />
