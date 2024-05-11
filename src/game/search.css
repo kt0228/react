@@ -1,0 +1,58 @@
+.container {
+    text-align: center;
+    width: 100vw;
+    height: 150vh;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+.title{
+    margin-top: 3vh;
+    font-size: max(20px,min(40px,calc(100vw / 15)));
+}
+#show {
+    position: relative;
+    margin: 1vh auto;
+    border: 2px black solid;
+    overflow: hidden;
+    display: block;
+    background-color: antiquewhite;
+    width: auto;
+    height: auto;
+    max-width: 520px;
+    padding: 0;
+}
+#show div div{
+    display: inline-block;
+    margin: 0;
+    padding: 2px;
+    font-size: max(18px,min(22px,calc(18px + (100vw - 200px) / 100)));
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+#show div div:hover{
+    background-color: yellow;
+}
+.text{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    top:5%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.btn1{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.btn2{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
